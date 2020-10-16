@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+    background-color: #f0f2f5;
+}
+
+.top-container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    display: inline-block;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#facebook-logo {
+    height: 7.2em;
+    padding-right: 20.1em;
+}
+
+.left p {
+    font-size: 1.8em;
+    font-family: "Helvetica";
+    margin: 0;
+    padding-left: 12em;
+}
+
+.left.connected p {
+    padding-left: 0;
+    padding-right: 12em;
+}
+
+.left p.label {
+    padding-left: 0;
+    padding-right: 18.2em;
+    font-size: 1em;
+    color: grey;
+}
+
+.right {
+    flex: 1;
+    display: inline-block;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+    width: 40%;
+    border-radius: 0.7em;
+    border: 1px #d2d2d2 solid;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.55);
+}
+
+.form-container a {
+    text-align: center;
+}
+
+input {
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #b3b3b385;
+}
+
+.signin-btn {
+    padding: 0.5em;
+    background-color: #4040ff;
+    color: white;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.signup-btn {
+    padding: 0.5em;
+    background-color: #1fc53b;
+    color: white;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: bold;
+    width: 13em;
+    margin-left: 3em;
+}
+
+a {
+    color: blue;
+    margin: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: blue;
+    height: 20vh;
+}
+
+
+.account {
+    margin-right: 28em;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+.name {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}
